@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: initial;
+}
+
+.title {
+    font-size: 2em;
+    height: 5vh;
+    display: flex;
+    align-content: center;
+    background: #c7a1d6;
+    align-items: center;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+.generator {
+    display: flex;
+    justify-content: center;
+}
+
+.lotto_gen {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 5vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ball {
+    height: 5vh;
+    width: 5vh;
+    background: gray;
+    border-radius: 5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+    font-size: 2vh;
+
+    &.red {
+        background-color: red;
+    }
+    &.green {
+        background-color: green;
+    }
+    &.yellow {
+        background-color: rgb(204, 204, 0);
+    }
+    &.blue {
+        background-color: blue;
+    }
+    &.gray {
+        background-color: gray;
+    }
+}
+
+.button_area {
+    width: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_gen {
+    padding: 1vh;
+    background-color: #e6644d;
+}
+
+.result {
+    padding: 1vh;
+}
